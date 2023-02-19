@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.a{
+    position: absolute;
+    max-height: max-content;
+    font-size: 50px;
+    font-weight: 200;
+    font-style: italic;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+img { 
+    width: 100%;
+    opacity: 0.9;
+  }
+
+ul{
+    list-style: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    margin: 20px;
+}
+
+#navbarNav{
+    justify-content: flex-end;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+}
+
+.navbar-brand{
+    font-weight: 700;
+}
+
+.navbar-link{
+    color: white;
+}
+
+.col{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.container{
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container a:hover{
+    background-color: #4CAF50; /* Green */
+}
